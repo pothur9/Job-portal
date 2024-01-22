@@ -1,0 +1,39 @@
+.bb{
+    background: linear-gradient(#DBE6FE,#FFFEFE);
+}
+.cc{
+    margin: 20px;
+    background-color: #F5F8FF;
+    min-width: 330px;
+    min-height: 200px;
+}
+
+.glass-nav{
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: saturate(180%) blur(15px);
+    -webkit-backdrop-filter: saturate(180%) blur(15px);
+}
+
+@media screen and (max-width: 768px) {
+    .cs{
+        display: block !important;
+        min-width: 200px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .cc{
+        min-width: 200px !important;
+        min-height: 140% !important;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .aa{
+        width: 100%;
+    }.vd{
+        max-height: 60%;
+    }.df{
+        max-height: 0% !important;
+    }
+}
+
